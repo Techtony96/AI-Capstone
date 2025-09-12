@@ -50,6 +50,5 @@ demo = gr.ChatInterface(
 
 # --- Launch the Application ---
 if __name__ == "__main__":
-    # share=True argument would create a public link, but for local use, it's not needed.
     # debug=True provides more detailed error messages in the console.
-    demo.launch(debug=False, share=False)
+    demo.launch(debug=False)
