@@ -2,7 +2,12 @@
 This project will run a local LLM model on your own Macbook, using Apple's MLX framework for utilizing the hardware inference, GPU, and unified memory available to it. 
 
 # Prerequisites
-Ensure you have Python installed (validated version: 3.13.2). If you have homebrew, you can do this with the below command:
+### MacOS
+This code uses frameworks only available on Apple Silicon based macs (M1, M2, etc). This will not work on Intel based macs.
+Update to the latest available MacOS version (validated Version: 15.6.1). Minimum MacOS Version: 14.0.
+
+### Python
+Ensure you have Python installed (validated version: 3.13.X). If you have homebrew, you can do this with the below command:
 ```bash
 brew install python@3.13
 ```
